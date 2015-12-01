@@ -1,3 +1,5 @@
+window.projectsArray = [];
+
 angular.module('project', ['ngRoute', 'firebase'])
  
 .value('fbURL', 'https://ng-projects-list.firebaseio.com/')
