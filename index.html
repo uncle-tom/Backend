@@ -10,7 +10,7 @@
     <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
     <link rel="stylesheet" href="bootstrap.css">
     <script src="project.js"></script>
-    <script type="text/ng-template" id="/list.html">
+    <script type="text/ng-template" id="/list.html"></script>
       <input type="text" ng-model="projectList.search" class="search-query" id="projects_search"
        placeholder="Search">
       <table>
@@ -32,7 +32,7 @@
         </tbody>
       </table>
     </script>
-    <script type="text/ng-template" id="/detail.html">
+    <script type="text/ng-template" id="/detail.html"></script>
       <form name="myForm">
         <div class="control-group" ng-class="{error: myForm.name.$invalid && !myForm.name.$pristine}">
           <label>Name</label>
